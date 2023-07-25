@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;padding: 0;
+    background-color: rgb(24, 24, 43); 
+     
+}
+                /* NAVIGATION PANEL */
+/* ----------------------------------------------------------- */
+
+.nav_panel{
+    height: 60px;
+    background-color: rgba(24, 24, 43,0.5);
+    /* background-color: transparent; */
+    border-radius: 10px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    position: sticky;   
+    top: 0px;
+  }
+  /* header{
+    position: sticky;
+    top: 0px;
+  } */
+
+                /* Navigation_Left */
+/* ----------------------------------------------------------- */
+.nav_left{
+    padding-top: 15px;
+    padding-left: 60px;    
+    /* border: 1px solid red; */
+}
+#SubhadeepHazra,#works,#contact{
+    
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+                /* Navigation_Right */
+/* ----------------------------------------------------------- */
+.nav_right{
+    padding-right: 60px;
+    padding-top: 15px;
+    /* display: flex */
+    /* border: 1px solid red; */
+   
+}
+.nav_right_items{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+#works,#contact{
+    padding-right: 15px;
+}
+#nav_btn{
+    height: 18px;
+    width: 18px;
+    border: 1px solid red;
+}
+
+                /* CARD_1 */
+/* ----------------------------------------------------------- */
+.card1{
+    display: flex;
+    height: 506px;
+    width: 1310px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red;   */
+}
+
+                /* Profile_Pic */
+#profile_pic{
+    border-radius: 80px;
+}
+
+                /* Running_Text */
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    /* text-transform: uppercase; */
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+    margin-top: 30px;
+  } 
+h1 span {
+    font-size: 40px;
+    margin-left: 220px;
+  } 
+.message {
+    margin-left: -125px;
+    color: white;
+    display: block;
+    /* font-size: 20px; */
+    /* font-weight: 900; */
+    /* overflow: hidden; */
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 466px;
+    animation: openclose 5s ease-in-out infinite;
+  }
+.word1, .word2, .word3 {
+    font-family: 'Roboto', sans-serif;
+
+  } 
+@keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 230px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 230px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 285px;
+    }
+    95% {
+      top: -9rem;
+      width: 285px;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+}
+
+                /* Bio */
+#bio{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 24px;
+}
+
+            /* Social_Handle(Handling line No.50-56 & 73 -77) */
+.social_handles{
+    width: 150px;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;   
+    
+}
+#github, #LinkedIn, #instagram{
+  width: 32px;
+  height: 32px;
+  border-radius: 30%;
+  box-sizing: border-box;
+}
+#github:hover{
+  border: 2px solid white ;
+  box-shadow: 0px 0px 8px 3px aquamarine;
+}
+#LinkedIn:hover{
+  border: 2px solid white ;
+  box-shadow: 0px 0px 8px 3px aquamarine;
+}
+#instagram:hover{
+  border: 2px solid white ;
+  border: 2px solid white ;
+  box-shadow: 0px 0px 8px 3px aquamarine;
+}
+
+
+                /* CARD_2 */
+/* ----------------------------------------------------------- */
+.card2{
+    /* border: 1px solid red; */
+    /* height: 678px; */
+    width: 1310px;
+    margin-top: 40px;
+    margin: auto;    
+}
+/* Recent Works */
+h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
+/* WORK_CARDS */
+.card2of1,.card2of2{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  border: auto;
+  padding-top: 10px;
+}
+#proJ-1,#proJ-2,#proJ-3,#proJ-4,#proJ-5,#proJ-6{
+  height: 454px;
+  width: 368px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: #18182b;
+}
+
+/*---------------card2of1 DETAILS------------*/
+#ProJ-1_img{
+  width: 368px;
+  padding-top: 13px;
+  border-radius: 8px;
+}
+.head_body{
+    padding-top: 25px;
+    padding-left: 24px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#ProJ-1_H{
+  font-weight: bold;
+}
+/* <!-- TECHSTACK USED --> */
+.techstack{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+#html_image, #css_image{
+  width: 30px;
+}
+/* CARD_1 OUT_LINKS */
+.outlink_1{
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin-top: 34px;
+  margin-right: 10px;
+}
+#repolink,#depolink{
+  width: 35px;
+  border-radius: 50px;
+  /* padding-right: 10px; */
+  margin-inline:5px;
+}
+#repolink:hover{
+  box-shadow: 0px 0px 8px 3px aquamarine;
+}
+#depolink:hover{
+  box-shadow: 0px 0px 8px 3px aquamarine;
+}
+/*---------------CARD_1 DETAILS------------*/
+
+
+
+/*---------------- Contact Information------------------------*/
+.Contact_Section{
+  /* border: 1px solid red; */
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  padding-top: 100px;
+  font-size: 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+#input{
+   padding-top: 30px;
+}
+.label_head{
+  font-size: 30px;
+  padding-left: 15px;
+}
+#name{
+  height: 35px;
+  width: 340px;
+  color: white;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 8px;
+  font-size:23px;
+}
+#email{
+  height: 35px;
+  width: 340px;
+  color: white;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin-top: 20px;
+  margin-left: 6px;
+  margin-bottom: 15px;
+  font-size: 23px;
+}
+
+#textarea{
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  
+}
+#name:hover{
+  border: 2px solid white ;
+  box-shadow: 0px 0px 8px 3px aquamarine;
+  cursor: text;
+}
+#email:hover{
+  border: 2px solid white ;
+  box-shadow: 0px 0px 8px 3px aquamarine;
+}
+
+#textarea:hover{
+  border: 2px solid white ;
+  box-shadow: 0px 0px 8px 3px aquamarine;
+}
+h3,p{
+  text-align: center;
+}
+#submit_btn{
+    width: 112px;
+    height: 39px;
+    border-radius: 22px;
+    color: #18182b;
+    background-color: white;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#submit_btn:hover{
+  border: 2px solid white;
+  box-shadow: 0px 0px 8px 3px aquamarine;
+  background-color: #18182b;
+  color: white;
+  cursor:pointer;
+}
+#emaillink{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+#location{
+  font-size: 15px;
+}
+
+/* --------------------FOOTER---------------------- */
+.footer{
+  display: flex;
+  list-style-type: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding:5px;
+}
+.footer_social{
+  display: flex; 
+  box-sizing: border-box;
+  margin-inline:5px;
+}
+
+.footer_social>li{
+  margin-inline:5px ;
+}
+.footer_social_handles{
+    width: 150px;
+    margin-top: 27px;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
