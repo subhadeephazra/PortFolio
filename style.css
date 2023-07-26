@@ -66,10 +66,11 @@
 .card1{
     display: flex;
     height: 506px;
-    width: 1310px;
+    /* width: 1310px; */
     margin: auto;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
     /* border: 2px solid red;   */
 }
 
@@ -220,9 +221,9 @@ h1 span {
 .card2{
     /* border: 1px solid red; */
     /* height: 678px; */
-    width: 1310px;
+    /* width: 1310px; */
     margin-top: 40px;
-    margin: auto;    
+    margin: auto;
 }
 /* Recent Works */
 h2{
@@ -235,6 +236,7 @@ h2{
 .card2of1,.card2of2{
   /* border: 2px solid red; */
   display: flex;
+  flex-wrap: wrap; 
   justify-content: space-evenly;
   border: auto;
   padding-top: 10px;
@@ -418,3 +420,9 @@ h3,p{
     list-style-type: none;
 }
 
+/* Media Queries */
+@media screen and (max-width: 425px){
+  .card2{
+    width: none;
+  }
+}
