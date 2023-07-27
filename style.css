@@ -267,7 +267,7 @@ h2{
 /* <!-- TECHSTACK USED --> */
 .techstack{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 20px;
 }
 #html_image, #css_image{
@@ -345,6 +345,7 @@ h2{
   font-size: 20px;
   text-align: center;
   box-sizing: border-box;
+  padding-block: 19px;
   
 }
 #name:hover{
@@ -387,10 +388,28 @@ h3,p{
   text-decoration: none;
   color: white;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+#emailimg{
+  width: 25px;
+  border-radius: 50%;
+  padding-right: 15px;
 }
 
 #location{
-  font-size: 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -20px;
+}
+#locimg{
+  width: 25px;
+  border-radius: 50%;
+  padding-right: 15px;
 }
 
 /* --------------------FOOTER---------------------- */
@@ -421,8 +440,160 @@ h3,p{
 }
 
 /* Media Queries */
-@media screen and (max-width: 425px){
-  .card2{
-    width: none;
+
+@media screen and (max-width:1025px){ 
+}
+
+@media screen and (max-width:769px){
+  .nav_panel{
+    margin-left: 25px;
+    position: sticky;
+    top: 0px;
+    width: 799px;
   }
+  .nav_left{
+    padding-left: 5px;
+    background-color: rgba(24,24,43, 0);
+  }
+  #SubhadeepHazra{
+    background-color: rgba(24,24,43, 0);
+  }
+  .nav_right{
+    padding-right: 25px;
+    background-color: rgba(24,24,43, 0);
+  }
+  .nav_right_items{
+    background-color: rgba(24,24,43, 0);
+  }
+  #works, #contact {
+    background-color: rgba(24,24,43, 0);
+  }
+  .card1{
+    display: flex;
+    height: 506px; 
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 42px;
+    margin-right: -43px;
+   }
+
+   h2{
+    margin-left: 96px;
+  }
+  .card2of1{
+    margin-left: 39px;
+    width: 744px;
+   }
+  #nametag{
+    display: flex;
+    flex-direction: column;
+  }
+  #bio{
+    font-size: 10px;
+  }
+  .Contact_Section{
+    font-size: 14px;
+    margin-left: 90px;
+    width: 667px;
+    padding-top: 75px;
+  }
+  #input{
+    font-size: 10px;
+  }
+  .label_head {
+    font-size: 15px;
+    padding-left: 0px;
+  }
+  #name {
+    padding-top: 0px;
+    font-size: 20px;
+  }
+
+  #email{
+    padding-top: 0px;
+    font-size: 20px;
+  }
+  #emaillink{
+    font-size: 20px;
+  }
+  .footer{
+    width: 717px;
+  }
+  }
+
+@media screen and (max-width:481px){
+
+  .nav_panel{
+    margin-left: 0px;
+    margin-right: -213px;
+    position: sticky;
+    top: 0px;
+  }
+  .nav_left{
+    padding-left: 36px;
+    background-color: rgba(24,24,43, 0);
+  }
+  #SubhadeepHazra{
+    background-color: rgba(24,24,43, 0);
+  }
+  .nav_right{
+    padding-right: 55px;
+    background-color: rgba(24,24,43, 0);
+  }
+  .nav_right_items{
+    background-color: rgba(24,24,43, 0);
+  }
+  #works, #contact {
+    background-color: rgba(24,24,43, 0);
+  }
+  .card1{
+    margin-left: 18px;
+    width: 674px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  } 
+  h2{
+    margin-left: 244px;
+  }
+  .card2of1{
+    margin-left: 20px;
+    width: 667px;
+   }
+  #nametag{
+    display: flex;
+    flex-direction: column;
+  }
+  #bio{
+    font-size: 10px;
+  }
+  .Contact_Section{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 667px;
+  }
+  #input{
+    font-size: 10px;
+  }
+  .label_head {
+    font-size: 15px;
+    padding-left: 0px;
+  }
+  #name {
+    padding-top: 0px;
+    font-size: 20px;
+  }
+
+  #email{
+    padding-top: 0px;
+    font-size: 20px;
+  }
+  #emaillink{
+    font-size: 20px;
+  }
+  .footer{
+    width: 717px;
+  }
+ 
 }
