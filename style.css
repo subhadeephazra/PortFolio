@@ -251,13 +251,13 @@ h2{
 
 /*---------------card2of1 DETAILS------------*/
 #ProJ-1_img{
-  width: 368px;
-  padding-top: 13px;
-  border-radius: 8px;
+    width: 368px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 7px;
 }
+/*---------------card2of1 DETAILS------------*/
 .head_body{
-    padding-top: 25px;
-    padding-left: 24px;
+    padding-top: 15px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -269,10 +269,12 @@ h2{
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  
 }
-#html_image, #css_image{
+#html_image, #css_image, #bootstrap_image{
   width: 30px;
 }
+
 /* CARD_1 OUT_LINKS */
 .outlink_1{
   display: flex;
