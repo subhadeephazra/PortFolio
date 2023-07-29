@@ -273,6 +273,7 @@ h2{
 }
 #html_image, #css_image, #bootstrap_image{
   width: 30px;
+  height: 30px;
 }
 
 /* CARD_1 OUT_LINKS */
